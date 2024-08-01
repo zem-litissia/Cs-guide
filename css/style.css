@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@500&display=swap');
 /* formulaire font */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 header{
    background-color: #010F20;
    display:flex;
@@ -159,7 +162,7 @@ body{
 .service{
     margin-top: -29px;
     height: 524px;
-    background-color:#1c314a;
+    background-color:#2a425f;
     align-items: center;
     justify-content: center;
 }
@@ -371,4 +374,25 @@ footer p{
     justify-content: center;
     color: #dbdee8;
     font-size: 20px;
+}
+#button{
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    transition: backround-color 0.3s;
+    opacity: 1;
+    opacity: 0.5s;
+    visibility: 0.5s;
+    z-index: 1000;
+}
+#button button {
+    background-color: #c9c9c9;
+    border-radius: 20px;
+    color: #50a18c;
+    font-size: 37px;
+}
+#button button:hover{
+    cursor: pointer;
+    color: #36826d;
 }
