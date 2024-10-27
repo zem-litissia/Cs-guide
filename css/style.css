@@ -32,23 +32,63 @@ header{
 }
 .navbar li{
     list-style: none;
-    padding: 0 70px;
-    position:relative;
+    padding: 0 60px;
+    /* position:relative; */
     justify-content: space-between;
+}
+.nav-linkS{
+    padding-right: 0;
+    margin-right: 0%;
 }
 .navbar li a{
     font-size:1.15rem;
     color: aliceblue;
-    text-transform: uppercase;
     text-decoration: none;
     font-family: "Rubik", sans-serif;
-    font-weight:400;
+    font-weight:500;
     transition: all 0.3s ease;
+    /* display: flex; */
 }
 .navbar li a:hover{
-    color: #50a18c;
+    color: #51e1ba;
     border-bottom: 2px solid #3e8f78;
     transition: 0.5s;
+}
+/* .drop{
+    display: inline-block;
+    width: 140px;
+    height: 100px;
+    position:absolute;
+}
+.drop-down{
+    position: absolute;
+    padding: 0.1rem;
+    margin:0.2rem;
+    background:#010F20 ;
+    color: white;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    /* display: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.669);
+} */
+/* .drop-down li{
+    font-weight: 300;
+    font-family: "Rubik", sans-serif;
+    margin: 0rem;
+    border-bottom: #06261d 1px solid;
+    padding: 0.8rem;
+}
+.drop-down li:hover{
+    background:#041830 ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.669);
+    border-bottom: #041830 1px solid;
+}    */ */
+
+.nav-linkS:hover .drop{
+    margin-right: 49px;
+    margin-top: 28px;
+    display: block;
+
 }
 .hero-section  {
     background-image: url('home-img2.png');
